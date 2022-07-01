@@ -1,7 +1,6 @@
 import "./Contact.css";
 import phone from "../../img/phone.png";
 import email from "../../img/email.png";
-import adress from "../../img/address.png";
 import linkedin from "../../img/linkedin.png";
 import React, { useContext, useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
@@ -46,10 +45,7 @@ const Contact = () => {
               <img className="c-icon" src={email} alt="email" />
               khmilasarra@gmail.com
             </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={adress} alt="adress" />
-              Mlle Khmila Sarra école primaire cité Ennour 2123 Gafsa 
-            </div>
+            
             <div className="c-info-item">
               <img className="c-icon" src={linkedin} alt="linkedin" />
              <a href="https://www.linkedin.com/in/sarra-khmila-748136172/">Visit My LinkedIn account</a> 

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Intro.css";
-import download from "../../img/download.png"
 const Intro = () => {
   return (
     <div className="i">
@@ -11,31 +10,35 @@ const Intro = () => {
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">
-              Certified Full Stack JS Web Developer
+              Web Developer Full Stack JS (Mern)
 </div>
               <div className="i-title-item">
-                Senior technician in chemical engineering
+              Freshly certified from GoMyCode
               </div>
               <div className="i-title-item">
-                first aid volunteer in the Tunisian red crescent
-              </div>
-              <div className="i-title-item">
-                active member in the Junior chamber international of Gafsa JCI
+              and Skilled in: 
               </div>
             </div>
           </div>
           <div className="i-desc">
-            Hello I'm sarra khmila a Junior web developer Full stack JS (Mern). <br/>
-            Skilled in: <br/>  JavaScript, HTML, CSS, ReactJs, Express.Js, Redux, Bootstrap, Node.js, Git and MongoDB as NoSQL database.
-          </div>
-          <div className="link2">
-          <img className="c-icon" src={download} alt="download" />
-              <a download href={require("../../img/My_CV.pdf")}>
-                Download My Resume 
-              </a>
-              
+  
+           
+              <div className="icons1">
+            Javascript <i class="devicon-javascript-plain colored"></i> 
+            HTML <i class="devicon-html5-plain colored"></i>
+            CSS <i class="devicon-css3-plain colored"></i>
+            ReactJs <i class="devicon-react-original colored"></i> 
+            ExpressJs <i class="devicon-express-original colored"></i>
             </div>
-          
+            <div className="icons2">
+            Redux <i class="devicon-redux-original colored"></i>
+            Bootstrap <i class="devicon-bootstrap-plain colored"></i>
+            NodeJs <i class="devicon-nodejs-plain colored"></i>
+            Git <i class="devicon-git-plain colored"></i>
+            MongoDB<i class="devicon-mongodb-plain colored"></i>
+            </div>
+            
+          </div>  
         </div>
       </div>
       <div className="i-right">
